@@ -1,46 +1,57 @@
-# 📰 Fake News Detection System
+# 📰 Fake News Detection using NLP, TF-IDF, Word2Vec, Naive Bayes & LSTM
 
-A machine learning-based web application that classifies news articles as **Real** or **Fake** using **Natural Language Processing (NLP)**, **TF-IDF vectorization**, and a **Naive Bayes classifier**. The system is built with a clean and responsive **Flask web interface**, making it easy to test and demonstrate.
+This project helps users identify whether a news article is **REAL** or **FAKE** using **two powerful models**:
+- 🔹 Traditional Machine Learning (Naive Bayes + TF-IDF)
+- 🔹 Deep Learning (LSTM + Word2Vec)
 
----
-
-## 🔍 Problem Statement
-
-The spread of fake news across digital platforms has become a major global issue. This project aims to address that challenge by building an intelligent model that can detect misleading or false information based on the news text and title.
+Deployed with **Streamlit** and built for production-ready demos.
 
 ---
 
-## 🎯 Objectives
+## 🚀 Demo
 
-- Detect whether a news article is real or fake
-- Create a web interface for interactive testing
-- Perform advanced text preprocessing and feature extraction
-- Use lightweight, explainable ML models like **Naive Bayes**
+![App Screenshot](screenshots/demo.png)
 
 ---
 
-## 🚀 Features
+## 🔍 Features
 
-- ✅ Real-time news classification via web form  
-- ✂️ NLP text preprocessing using NLTK   
-- 🧠 Trained using Multinomial Naive Bayes  
-- 🌐 Flask-based web interface  
-- 📈 Accuracy ~97% on test data
-
----
-
-## 🧠 Technologies Used
-
-| Category        | Tools & Libraries                          |
-|-----------------|---------------------------------------------|
-| Programming     | Python 3.13                                 |
-| Web Framework   | Flask                                       |
-| NLP             | NLTK, TextBlob                              |
-| ML Model        | scikit-learn (Multinomial Naive Bayes)     |
-| Vectorization   | TF-IDF                                      |
-| Visualization   | Seaborn, Matplotlib                         |
+- 🔀 Choose between **Naive Bayes** or **LSTM**
+- ✍️ Real-time news text prediction
+- 🧠 Pretrained tokenizer and embedding matrix
+- 🔠 Cleaned with POS-tagging + Lemmatization
+- ✅ Shows confidence score of prediction
+- 💻 White & clean professional UI
 
 ---
 
-## 📁 Project Structure
+## 🧠 Models
+
+### ✅ Naive Bayes + TF-IDF
+- Uses `TfidfVectorizer` with `max_features=5000`
+- Trained with `MultinomialNB`
+- Fast and interpretable
+
+### 🔁 LSTM + Word2Vec
+- Word embeddings trained via `gensim.Word2Vec`
+- Sequence padded to length 300
+- `Keras` based LSTM model
+- Better contextual understanding
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer         | Tools / Libraries                           |
+|---------------|----------------------------------------------|
+| Language      | Python 3.10                                  |
+| UI            | Streamlit                                    |
+| NLP           | NLTK, Gensim                                 |
+| ML/DL         | Scikit-learn, TensorFlow, Keras              |
+| Vectorization | TF-IDF, Word2Vec                             |
+| Model Storage | Pickle, Joblib                               |
+
+---
+
+## 📁 Folder Structure
 
