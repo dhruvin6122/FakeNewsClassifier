@@ -10,7 +10,7 @@ Deployed with **Streamlit** and built for production-ready demos.
 
 ## 🚀 Demo
 
-![App Screenshot](screenshots/demo.png)
+![App Screenshot](screenshots/Nave_Fake1.png)
 
 ---
 
@@ -74,7 +74,7 @@ You are free to use, distribute, and modify the code with proper attribution.
 
 ---
 
-## 📦 Download Trained Models
+## 📦 Download Whole Project With Models And Datasets From Google Drive
 
 You can download the pre-trained models (LSTM + Naive Bayes) And Dataset here:
 
