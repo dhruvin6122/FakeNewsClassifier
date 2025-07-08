@@ -65,10 +65,29 @@ Here are some exciting features planned for upcoming versions:
 - 🔒 **Authentication**: Add user login system to restrict access or allow personal saved results.
 - 🧪 **Model Comparison Mode**: Visualize accuracy/F1 score differences across models.
 
+---
+
 ## 📄 License
 
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).  
 You are free to use, distribute, and modify the code with proper attribution.
+
+---
+
+## 📦 Download Trained Models
+
+You can download the pre-trained models (LSTM + Naive Bayes) And Dataset here:
+
+🔗 [📁 Google Drive Folder – Download Models](https://drive.google.com/drive/folders/1vkZuEqSc27pHc9xOxNlvPzKx8J7p9xWE?usp=sharing)
+
+> Includes:
+> - `DataSets`
+> - `fake_news_lstm_model.h5`
+> - `tokenizer.pkl`
+> - `naive_bayes_model.pkl`
+> - `vectorizer.pkl`
+
+---
 
 ## 🙋‍♂️ Author
 
@@ -77,6 +96,7 @@ You are free to use, distribute, and modify the code with proper attribution.
 📍 Gujarat, India  
 📧 Email: pateldhruvin6122@gmail.com  
 🔗 GitHub: [@dhruvin6122](https://github.com/dhruvin6122)    
-💼 LinkedIn: [View Profile]([https://linkedin.com/](https://www.linkedin.com/in/patel-dhruvin-70b602280?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app))
+💼 LinkedIn: [View Profile](https://www.linkedin.com/in/patel-dhruvin-70b602280?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
+
 
 
