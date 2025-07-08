@@ -10,7 +10,26 @@ Deployed with **Streamlit** and built for production-ready demos.
 
 ## 🚀 Demo
 
-![App Screenshot](screenshots/Nave_Fake1.png)
+## 📸 Screenshots
+
+Visual demonstration of model predictions:
+
+---
+
+### 🔍 LSTM Model Predictions
+
+| ❌ Fake News | ✅ Real News |
+|-------------|-------------|
+| ![LSTM Fake](https://raw.githubusercontent.com/dhruvin6122/fake-news-detector/main/FakeNewsClassifier/screenshorts/Lstm_Fake1.png) | ![LSTM Real](https://raw.githubusercontent.com/dhruvin6122/fake-news-detector/main/FakeNewsClassifier/screenshorts/Lstm_True1.png) |
+
+---
+
+### 🤖 Naive Bayes Predictions
+
+| ❌ Fake News | ✅ Real News |
+|-------------|-------------|
+| ![Naive Fake](https://raw.githubusercontent.com/dhruvin6122/fake-news-detector/main/FakeNewsClassifier/screenshorts/Nave_Fake1.png) | ![Naive Real](https://raw.githubusercontent.com/dhruvin6122/fake-news-detector/main/FakeNewsClassifier/screenshorts/Nave_True1.png) |
+
 
 ---
 
