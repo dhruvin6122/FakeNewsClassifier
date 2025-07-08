@@ -20,7 +20,7 @@ Visual demonstration of model predictions:
 
 | ❌ Fake News | ✅ Real News |
 |-------------|-------------|
-| ![LSTM Fake](https://raw.githubusercontent.com/dhruvin6122/fake-news-detector/main/FakeNewsClassifier/screenshorts/Lstm_Fake1.png) | ![LSTM Real](https://raw.githubusercontent.com/dhruvin6122/fake-news-detector/main/FakeNewsClassifier/screenshorts/Lstm_True1.png) |
+| ![LSTM Fake](https://raw.githubusercontent.com/dhruvin6122/FakeNewsClassifier/main/FakeNewsClassifier/screenshorts/Lstm_Fake1.png) | ![LSTM Real](https://raw.githubusercontent.com/dhruvin6122/fake-news-detector/main/FakeNewsClassifier/screenshorts/Lstm_True1.png) |
 
 ---
 
